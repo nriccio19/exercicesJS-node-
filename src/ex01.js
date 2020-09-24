@@ -1,8 +1,3 @@
-let counter = 0
-while (true) {
-    console.log(counter)
-    counter += 1
-    if (counter === 101) {
-        break
-    }
+for (let i = 0; i <= 100; i += 1) {
+    console.log(i)
 }
